@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<uml>
+  <class>
+    <name>Employer</name>
+    <name>Timeline</name>
+    <name>Picture</name>
+    <name>Actor</name>
+    <attribute bad="Should be association">city: City</attribute>
+    <attribute bad="Should be association">actor: Actor</attribute>
+    <operation bad="Missing type">Draw(graphics)</operation>
+    <operation bad="Use camelcase">Launchrocket(): bool</operation>
+  </class>
+</uml>
